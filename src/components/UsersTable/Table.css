@@ -1,0 +1,30 @@
+table {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.5rem 1rem;
+}
+
+tr {
+  background-color: var(--secondary);
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.delete {
+  color: var(--danger);
+}
+
+.delete:hover {
+  color: var(--danger);
+}
